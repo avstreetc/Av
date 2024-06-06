@@ -38,7 +38,7 @@
             <button onclick="filterSelection('логотип')">логотип</button>
         </div>
         <div class="works">
-            <div class="work фото">
+            <div class="work фото" onclick="openModal('work_nightShooting')">
                 <img src="assets/IMG/Port/night_shooting.png" alt="Ночная съемка">
                 <p>Ночная съемка</p>
                 <span>Canon 600D</span>
@@ -48,7 +48,7 @@
                 <p>Шахматы</p>
                 <span>blender 3D</span>
             </div>
-            <div class="work веб-дизайн">
+            <div class="work веб-дизайн" onclick="openModal('work_webSearchLearn')">
                 <img src="assets/IMG/Port/learning_site.png" alt="Сайт обучающих курсов">
                 <p>Сайт обучающих курсов</p>
                 <span>Figma</span>
@@ -58,7 +58,7 @@
                 <p>Логотип Лимон</p>
                 <span>Illustrator, Photoshop</span>
             </div>
-            <div class="work фото">
+            <div class="work фото" onclick="openModal('work_dance')">
                 <img src="assets/IMG/Port/dance.png" alt="Танец 9 мая">
                 <p>Танец 9 мая</p>
                 <span>Canon 650D</span>
@@ -95,7 +95,15 @@
             </div>
         </div>
     </div>
-
+<!-- Модальное окно -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body">
+            <!-- Контент модального окна будет динамически добавляться через JavaScript -->
+        </div>
+    </div>
+</div>
     <script src="assets/JS/port.js"></script>
     <footer>
         <div class="footer-left">

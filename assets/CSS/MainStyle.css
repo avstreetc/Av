@@ -99,13 +99,13 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
     padding: 1.25rem; /* 20px equivalent */
 }
 
 video {
     width: 100%;
-    height: calc(100vh - 15rem); /* 100vh - 40px equivalent */
+    height: calc(100vh - 15rem); 
     object-fit: cover;
     border-radius: 2rem;
 }
@@ -121,14 +121,6 @@ video {
     margin: 1rem 0;
 }
 
-.feedback-button {
-    border: 0.0625rem solid black; /* 1px equivalent */
-    padding: 0.625rem 1.25rem; /* 10px 20px equivalent */
-    text-decoration: none;
-    color: black;
-    border-radius: 0.3125rem; /* 5px equivalent */
-    cursor: pointer;
-}
 
 footer {
     display: flex;
