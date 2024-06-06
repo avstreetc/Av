@@ -105,7 +105,7 @@ nav ul li a {
 
 video {
     width: 100%;
-    height: calc(100vh - 2.5rem); /* 100vh - 40px equivalent */
+    height: calc(100vh - 15rem); /* 100vh - 40px equivalent */
     object-fit: cover;
     border-radius: 2rem;
 }
