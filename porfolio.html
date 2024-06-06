@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио Avstreetc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/CSS/PortfolioStyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo-lang">
+            <div class="circle"></div>
+            <span>AVstreetc</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="main.html">Обо мне</a></li>
+                <li><a href="#">Портфолио</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="contact-button">
+            <a href="https://t.me/hauptziel">Связаться</a>
+        </div>
+    </header>
+
+     <!-- Основное содержимое -->
+     <div class="container">
+        <h1>МНОЖЕСТВО РАБОТ ПО КАТЕГОРИЯМ</h1>
+        <div class="categories">
+            <button onclick="filterSelection('all')">все</button>
+            <button onclick="filterSelection('фото')">фото</button>
+            <button onclick="filterSelection('3D')">3D</button>
+            <button onclick="filterSelection('веб-дизайн')">веб-дизайн</button>
+            <button onclick="filterSelection('продукт')">продукт</button>
+            <button onclick="filterSelection('ux/ui')">ux/ui</button>
+            <button onclick="filterSelection('логотип')">логотип</button>
+        </div>
+        <div class="works">
+            <div class="work фото">
+                <img src="assets/IMG/Port/night_shooting.png" alt="Ночная съемка">
+                <p>Ночная съемка</p>
+                <span>Canon 600D</span>
+            </div>
+            <div class="work 3D">
+                <img src="assets/IMG/Port/chess.png" alt="Шахматы">
+                <p>Шахматы</p>
+                <span>blender 3D</span>
+            </div>
+            <div class="work веб-дизайн">
+                <img src="assets/IMG/Port/learning_site.png" alt="Сайт обучающих курсов">
+                <p>Сайт обучающих курсов</p>
+                <span>Figma</span>
+            </div>
+            <div class="work логотип">
+                <img src="assets/IMG/Port/limon_logo.png" alt="Логотип Лимон">
+                <p>Логотип Лимон</p>
+                <span>Illustrator, Photoshop</span>
+            </div>
+            <div class="work фото">
+                <img src="assets/IMG/Port/dance.png" alt="Танец 9 мая">
+                <p>Танец 9 мая</p>
+                <span>Canon 650D</span>
+            </div>
+            <div class="work продукт">
+                <img src="assets/IMG/Port/handmade_album.png" alt="Альбом ручной">
+                <p>Альбом ручной</p>
+                <span>Figma, печать</span>
+            </div>
+            <div class="work продукт">
+                <img src="assets/IMG/Port/psychologist_reels.png" alt="Reels психологу">
+                <p>Reels психологу</p>
+                <span>Canon 600D, петличка, свет</span>
+            </div>
+            <div class="work фото">
+                <img src="assets/IMG/Port/mobile_studio.png" alt="Выездная студия">
+                <p>Выездная студия</p>
+                <span>Canon 600D, ford fusion</span>
+            </div>
+            <div class="work фото">
+                <img src="assets/IMG/Port/photo_wall.png" alt="Фото на стенды">
+                <p>Фото на стенды</p>
+                <span>Canon 600D, печать</span>
+            </div>
+            <div class="work продукт">
+                <img src="assets/IMG/Port/boavok.png" alt="BoAvok">
+                <p>BoAvok</p>
+                <span>C#, Figma</span>
+            </div>
+            <div class="work продукт">
+                <img src="assets/IMG/Port/boavok.png" alt="BoAvok">
+                <p>BoAvok</p>
+                <span>C#, Figma</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/JS/port.js"></script>
+    <footer>
+        <div class="footer-left">
+            <h2>AVstreetcАртем</h2>
+            <p>Креативный технолог</p>
+            <div class="social-icons">
+                <a href="https://t.me/hauptziel"><img src="assets/IMG/fo/tg.svg" alt="Telegram"></a>
+                <a href="https://www.instagram.com/avstreetc"><img src="assets/IMG/fo/inst.svg" alt="Instagram"></a>
+                <a href="https://www.behance.net/artomva"><img src="assets/IMG/fo/be.svg" alt="Behance"></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li>фото</li>
+                <li>3D</li>
+                <li>веб-дизайн</li>
+                <li>логотипы</li>
+                <li>ux/ui</li>
+                <li>логотип</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
