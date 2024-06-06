@@ -40,6 +40,7 @@ function openModal(workId) {
                 <p>Такая акция помогает сохранить память о великой Победе и ее героях в наших сердцах.</p>
                 <img src="assets/IMG/workcase/dance/c.jpg" alt="Работа 3" style="max-width: 100%; border-radius: 10px;">
             `;
+            break;
             case "work_webSearchLearn":
             modalBody.innerHTML = `
                 <h2>Проект Search&Learn</h2>
