@@ -54,9 +54,9 @@ window.openModal = function(workId) {
                 <h2>Сайт обучающих курсов</h2>
                 <img src="assets/IMG/workcase/SearchLearn/a.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
-                <img src="assets/IMG/workcase/SearchLearn/b.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/b.png" alt="Сайт курсов" style="max-width: 100%; border-radius: 10px;">
                 <p>Такой сайт помогает развиваться стартаперам SearchAndLearn.</p>
-                <img src="assets/IMG/workcase/SearchLearn/c.jpg" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/c.jpg" alt="Сайт" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_limonLogo":
@@ -86,7 +86,7 @@ window.openModal = function(workId) {
                 <img src="assets/IMG/workcase/mobileStudio/a.jpg" alt="Выездная студия" style="max-width: 100%; border-radius: 10px;">
                 <p>Организация и проведение фотосессий с выездной студией, включая установку света и фона.</p>
                 <p>Такую студию можно взять с собой куда угодно, где угодно. Конечно, где можно спокойно проехать на машине. Кадры с таким фоном получаются живыми!</p>
-                <img src="assets/IMG/workcase/mobileStudio/b.jpg" alt="Выездная студия" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/mobileStudio/b.jpg" alt="Фото на студии" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_photoWall":
