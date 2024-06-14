@@ -50,7 +50,7 @@ window.openModal = function(workId) {
         case "work_webSearchLearn":
             modalBody.innerHTML = `
                 <h2>Сайт обучающих курсов</h2>
-                <img src="assets/IMG/workcase/webSearchLearn.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/a.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
             `;
             break;
