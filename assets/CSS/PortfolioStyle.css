@@ -198,6 +198,11 @@ footer {
     align-items: center;
     text-align: center;
 }
+.modal-content img {
+    max-width: 20%; /* Сохраняем максимальную ширину фотографии */
+    max-height: 20%; /* Позволяет изображению автоматически масштабироваться по высоте */
+    margin-bottom: 10px; /* Добавляем отступ снизу между фотографиями */
+}
 
 .close {
     position: absolute;

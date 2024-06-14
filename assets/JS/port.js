@@ -33,7 +33,7 @@ window.openModal = function(workId) {
         case "work_nightShooting":
             modalBody.innerHTML = `
                 <h2>Ночная съемка Маши</h2>
-                <img src="assets/IMG/workcase/nightShooting/a.jpg" alt="Работа 1" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/nightShooting/a.jpg" alt="Работа 1" style="max-hight: 40%; border-radius: 10px;">
                 <p>Для таких кадров нам необходимо было пройти к локации и расставить свет. Это был невероятно увлекательный процесс, который позволил раскрыть всю красоту ночного города.</p>
                 <img src="assets/IMG/workcase/nightShooting/b.jpg" alt="Работа 2" style="max-width: 100%; border-radius: 10px;">
                 <p>Несколько нарядов помогают создать разные образы, а меняя фон кажется, будто фотосессий было несколько!</p>
