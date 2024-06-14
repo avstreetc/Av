@@ -1,7 +1,3 @@
-import * as THREE from 'https://cdn.skypack.dev/three@0.129.0/build/three.module.js';
-import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js';
-
-// Функция для фильтрации работ по категориям
 function filterSelection(category) {
     let works = document.getElementsByClassName('work');
     if (category === 'all') category = '';
@@ -11,6 +7,8 @@ function filterSelection(category) {
     }
 }
 
+// Default to show all works
+filterSelection('all');
 // Default to show all works
 filterSelection('all');
 // Функция для открытия модального окна
