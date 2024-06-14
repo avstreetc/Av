@@ -106,8 +106,7 @@ window.openModal = function(workId) {
 
 // Функция для закрытия модального окна
 window.closeModal = function() {
-    const modal = document.getElementById("modal");
-    modal.style.display = "none";
+    document.getElementById("modal").style.display = "none";
 }
 
 // Закрытие модального окна при клике вне его

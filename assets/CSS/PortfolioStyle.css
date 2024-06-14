@@ -7,8 +7,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -45,12 +45,15 @@ nav ul li a {
     text-decoration: none;
     color: black;
 }
+
 .contact-button {
     transition: all 0.2s ease-in-out;
 }
+
 .contact-button:hover {
     transform: scale(1.1);
 }
+
 .contact-button a {
     border: 0.0625rem solid black; /* 1px equivalent */
     padding: 0.625rem 1.25rem; /* 10px 20px equivalent */
@@ -101,8 +104,9 @@ h1 {
 .work {
     background: white;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .work img {
     max-width: 100%;
     height: auto;
@@ -176,29 +180,34 @@ footer {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,0.5);
-    
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-content {
     background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
+    margin: 5% auto; /* Уменьшена верхняя и нижняя маржа для лучшей адаптивности */
+    padding: 2rem;
     border: 1px solid #888;
     width: 80%;
     max-width: 1200px;
-    border-radius: 10px;
-    display:flex;
+    border-radius: 0.625rem; /* 10px equivalent */
+    position: relative; /* Для позиционирования кнопки закрытия */
+
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
-/* .close {
+.close {
+    position: absolute;
+    top: 1rem; /* 16px equivalent */
+    right: 1rem; /* 16px equivalent */
     color: #aaa;
-    align-self:sle; Перемещает кнопку закрытия в верхний правый угол
-    font-size: 28px;
+    font-size: 1.75rem; /* 28px equivalent */
     font-weight: bold;
-} */
+    cursor: pointer;
+}
 
 .close:hover,
 .close:focus {
@@ -206,6 +215,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
 }
+
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -215,6 +225,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .contact-button {
         margin-top: 20px;
         width: 100%;
@@ -229,6 +240,7 @@ footer {
         flex: 1 1 45%;
         margin: 10px 0;
     }
+
     .modal-content {
         width: 90%;
     }
@@ -236,25 +248,28 @@ footer {
     footer {
         text-align: center;
     }
+
     .footer-left h2 {
-
         font-size: 1.5rem;
-
     }
 
-    .footer-left, .footer-right {
+    .footer-left,
+    .footer-right {
         max-width: 100%;
         width: 100%;
     }
 }
+
 @media (max-width: 480px) {
     h1 {
         font-size: 1.5rem;
     }
+
     .work {
         flex: 1 1 100%;
         margin: 10px;
     }
+
     .categories button {
         font-size: 0.9rem;
         padding: 8px 16px;

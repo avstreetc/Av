@@ -89,15 +89,16 @@
             </div>
         </div>
     </div>
-    <!-- Модальное окно -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <div id="modal-body">
-                <!-- Контент модального окна будет динамически добавляться через JavaScript -->
-            </div>
-        </div>
+    <!-- Кнопка для открытия модального окна -->
+<button onclick="openModal('work1')">Открыть работу 1</button>
+
+<!-- Модальное окно -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-body"></div>
     </div>
+</div>
     <script type="module" src="assets/JS/port.js"></script>
     <footer>
         <div class="footer-left">
