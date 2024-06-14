@@ -24,9 +24,8 @@
             <a href="https://t.me/hauptziel">Связаться</a>
         </div>
     </header>
-
-     <!-- Основное содержимое -->
-     <div class="container">
+    <!-- Основное содержимое -->
+    <div class="container">
         <h1>МНОЖЕСТВО РАБОТ ПО КАТЕГОРИЯМ</h1>
         <div class="categories">
             <button onclick="filterSelection('all')">все</button>
@@ -43,7 +42,7 @@
                 <p>Ночная съемка</p>
                 <span>Canon 600D</span>
             </div>
-            <div class="work 3D">
+            <div class="work 3D" onclick="openModal('work_chess')">
                 <img src="assets/IMG/Port/chess.png" alt="Шахматы">
                 <p>Шахматы</p>
                 <span>blender 3D</span>
@@ -53,7 +52,7 @@
                 <p>Сайт обучающих курсов</p>
                 <span>Figma</span>
             </div>
-            <div class="work логотип">
+            <div class="work логотип" onclick="openModal('work_limonLogo')">
                 <img src="assets/IMG/Port/limon_logo.png" alt="Логотип Лимон">
                 <p>Логотип Лимон</p>
                 <span>Illustrator, Photoshop</span>
@@ -63,44 +62,43 @@
                 <p>Танец 9 мая</p>
                 <span>Canon 650D</span>
             </div>
-            <div class="work продукт">
+            <div class="work продукт" onclick="openModal('work_handmadeAlbum')">
                 <img src="assets/IMG/Port/handmade_album.png" alt="Альбом ручной">
                 <p>Альбом ручной</p>
                 <span>Figma, печать</span>
             </div>
-            <div class="work продукт">
+            <div class="work продукт" onclick="openModal('work_psychologistReels')">
                 <img src="assets/IMG/Port/psychologist_reels.png" alt="Reels психологу">
                 <p>Reels психологу</p>
                 <span>Canon 600D, петличка, свет</span>
             </div>
-            <div class="work фото">
+            <div class="work фото" onclick="openModal('work_mobileStudio')">
                 <img src="assets/IMG/Port/mobile_studio.png" alt="Выездная студия">
                 <p>Выездная студия</p>
                 <span>Canon 600D, ford fusion</span>
             </div>
-            <div class="work фото">
+            <div class="work фото" onclick="openModal('work_photoWall')">
                 <img src="assets/IMG/Port/photo_wall.png" alt="Фото на стенды">
                 <p>Фото на стенды</p>
                 <span>Canon 600D, печать</span>
             </div>
-            <div class="work ux/ui">
+            <div class="work ux/ui" onclick="openModal('work_boavok')">
                 <img src="assets/IMG/Port/boavok.png" alt="BoAvok">
                 <p>BoAvok</p>
                 <span>C#, Figma</span>
             </div>
-
         </div>
     </div>
-<!-- Модальное окно -->
-<div id="modal" class="modal">
-    <div class="modal-content">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <div id="modal-body">
-            <!-- Контент модального окна будет динамически добавляться через JavaScript -->
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modal-body">
+                <!-- Контент модального окна будет динамически добавляться через JavaScript -->
+            </div>
         </div>
     </div>
-</div>
-    <script src="assets/JS/port.js"></script>
+    <script type="module" src="assets/JS/port.js"></script>
     <footer>
         <div class="footer-left">
             <h2>AVstreetcАртем</h2>
