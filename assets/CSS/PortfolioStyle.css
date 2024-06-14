@@ -281,4 +281,9 @@ footer {
     .work span {
         font-size: 0.8rem;
     }
+
+    .modal-content {
+        width: 90%;
+        padding: 1rem; /* Уменьшаем отступы внутри модального окна */
+    }
 }
