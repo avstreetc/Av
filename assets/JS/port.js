@@ -62,7 +62,7 @@ window.openModal = function(workId) {
         case "work_limonLogo":
             modalBody.innerHTML = `
                 <h2>Логотип Лимон</h2>
-                <img src="assets/IMG/workcase/limonLogo.png" alt="Логотип Лимон" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/limonLogo/a.jpg" alt="Логотип Лимон" style="max-width: 100%; border-radius: 10px;">
                 <p>Разработка логотипа для бренда "Лимон" включала в себя создание уникального фирменного стиля и элементов брендинга.</p>
             `;
             break;
