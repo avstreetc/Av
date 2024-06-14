@@ -52,6 +52,9 @@ window.openModal = function(workId) {
                 <h2>Сайт обучающих курсов</h2>
                 <img src="assets/IMG/workcase/SearchLearn/a.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
+                <img src="assets/IMG/workcase/SearchLearn/b.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
+                <p>Такой сайт помогает развиваться стартаперам SearchAndLearn.</p>
+                <img src="assets/IMG/workcase/SearchLearn/c.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_limonLogo":
