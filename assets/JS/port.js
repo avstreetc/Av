@@ -83,8 +83,10 @@ window.openModal = function(workId) {
         case "work_mobileStudio":
             modalBody.innerHTML = `
                 <h2>Выездная студия</h2>
-                <img src="assets/IMG/workcase/mobileStudio.png" alt="Выездная студия" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/mobileStudio/a.jpg" alt="Выездная студия" style="max-width: 100%; border-radius: 10px;">
                 <p>Организация и проведение фотосессий с выездной студией, включая установку света и фона.</p>
+                <p>Такую студию можно взять с собой куда угодно, где угодно. Конечно, где можно спокойно проехать на машине. Кадры с таким фоном получаются живыми!</p>
+                <img src="assets/IMG/workcase/mobileStudio/b.jpg" alt="Выездная студия" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_photoWall":
