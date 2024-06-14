@@ -46,13 +46,7 @@ nav ul li a {
     color: black;
 }
 
-.contact-button {
-    transition: all 0.2s ease-in-out;
-}
 
-.contact-button:hover {
-    transform: scale(1.1);
-}
 
 .contact-button a {
     border: 0.0625rem solid black; /* 1px equivalent */
