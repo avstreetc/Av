@@ -50,24 +50,24 @@ window.openModal = function(workId) {
         case "work_webSearchLearn":
             modalBody.innerHTML = `
                 <h2>Сайт обучающих курсов</h2>
-                <img src="assets/IMG/workcase/SearchLearn/a.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/a.png" alt="Сайт" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
-                <img src="assets/IMG/workcase/SearchLearn/b.png" alt="Сайт курсов" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/b.png" alt="Сайт2" style="max-width: 100%; border-radius: 10px;">
                 <p>Такой сайт помогает развиваться стартаперам SearchAndLearn.</p>
-                <img src="assets/IMG/workcase/SearchLearn/c.jpg" alt="Сайт" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/c.jpg" alt="Сайт3" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_limonLogo":
             modalBody.innerHTML = `
                 <h2>Логотип Лимон</h2>
-                <img src="assets/IMG/workcase/limonLogo/a.jpg" alt="Логотип Лимон" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/limonLogo/a.jpg" alt="Логотип" style="max-width: 100%; border-radius: 10px;">
                 <p>Разработка логотипа для бренда "Лимон" включала в себя создание уникального фирменного стиля и элементов брендинга.</p>
             `;
             break;
         case "work_handmadeAlbum":
             modalBody.innerHTML = `
                 <h2>Альбом ручной работы</h2>
-                <img src="assets/IMG/workcase/handmadeAlbum/a.jpg" alt="Альбом ручной работы" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/handmadeAlbum/a.jpg" alt="Альбом" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание альбома ручной работы включало в себя разработку дизайна страниц, подбор материалов и печать.</p>
             `;
             break;
