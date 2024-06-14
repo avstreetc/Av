@@ -37,6 +37,8 @@ window.openModal = function(workId) {
                 <p>Для таких кадров нам необходимо было пройти к локации и расставить свет. Это был невероятно увлекательный процесс, который позволил раскрыть всю красоту ночного города.</p>
                 <img src="assets/IMG/workcase/nightShooting/b.jpg" alt="Работа 2" style="max-width: 100%; border-radius: 10px;">
                 <p>Несколько нарядов помогают создать разные образы, а меняя фон кажется, будто фотосессий было несколько!</p>
+                <p>Свет определенно добавляет свой шарм.</p>
+                <img src="assets/IMG/workcase/nightShooting/c.jpg" alt="Работа 2" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_dance":
@@ -54,7 +56,7 @@ window.openModal = function(workId) {
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
                 <img src="assets/IMG/workcase/SearchLearn/b.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
                 <p>Такой сайт помогает развиваться стартаперам SearchAndLearn.</p>
-                <img src="assets/IMG/workcase/SearchLearn/c.png" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/SearchLearn/c.jpg" alt="Сайт обучающих курсов" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_limonLogo":
@@ -67,7 +69,7 @@ window.openModal = function(workId) {
         case "work_handmadeAlbum":
             modalBody.innerHTML = `
                 <h2>Альбом ручной работы</h2>
-                <img src="assets/IMG/workcase/handmadeAlbum.png" alt="Альбом ручной работы" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/handmadeAlbum/a.jpg" alt="Альбом ручной работы" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание альбома ручной работы включало в себя разработку дизайна страниц, подбор материалов и печать.</p>
             `;
             break;
