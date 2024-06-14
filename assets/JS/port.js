@@ -90,14 +90,14 @@ window.openModal = function(workId) {
         case "work_photoWall":
             modalBody.innerHTML = `
                 <h2>Фото на стенды</h2>
-                <img src="assets/IMG/workcase/photoWall.png" alt="Фото на стенды" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/photoWall/a.jpg" alt="Фото на стенды" style="max-width: 100%; border-radius: 10px;">
                 <p>Съемка и печать фотографий для размещения на стендах в учебных заведениях.</p>
             `;
             break;
         case "work_boavok":
             modalBody.innerHTML = `
                 <h2>BoAvok</h2>
-                <img src="assets/IMG/workcase/boavok.png" alt="BoAvok" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/boavok/a.png" alt="BoAvok" style="max-width: 100%; border-radius: 10px;">
                 <p>Разработка UX/UI дизайна для мобильного приложения BoAvok, включая прототипирование и тестирование.</p>
             `;
             break;
