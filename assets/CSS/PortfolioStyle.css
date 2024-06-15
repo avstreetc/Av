@@ -120,12 +120,20 @@ h1 {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 1.25rem;
+    padding: 1.25rem; /* 20px equivalent */
     background-color: #333;
     color: white;
-    flex-wrap: wrap;
+    position: relative;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    width: 100%;
 }
 
 .footer-left {
@@ -138,19 +146,27 @@ footer {
     margin: 0;
 }
 
-.footer-left p {
+.footer-left h3 {
     font-weight: 400;
     font-size: 1rem;
     margin: 0;
+    margin-top: 0.5rem; /* Adding space between h2 and h3 */
 }
 
 .social-icons {
-    margin-top: 10px;
+    margin-top: 0.5rem; /* Adding space between h3 and social icons */
 }
 
 .social-icons a img {
-    width: 1.875rem;
-    margin-right: 0.625rem;
+    width: 1.875rem; /* 30px equivalent */
+    margin-right: 0.625rem; /* 10px equivalent */
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 50%;
 }
 
 .footer-right ul {
@@ -161,9 +177,24 @@ footer {
 .footer-right ul li {
     font-weight: 400;
     font-size: 1rem;
-    margin: 5px 0;
+    margin: 0.3125rem 0; /* 5px equivalent */
 }
 
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-right ul li a:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    width: 100%;
+    text-align: center;
+    font-size: 0.875rem; /* 14px equivalent */
+    margin-top: 1rem;
+}
 /* Стили для модального окна */
 .modal {
     display: none; /* Скрываем модальное окно по умолчанию */
@@ -215,10 +246,8 @@ footer {
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
+@media (max-width: 600px) {
+
 
     nav ul {
         flex-direction: column;
@@ -231,10 +260,6 @@ footer {
         text-align: center;
     }
 
-    .categories {
-        flex-direction: column;
-    }
-
     .work {
         flex: 1 1 45%;
         margin: 10px 0;
@@ -244,18 +269,17 @@ footer {
         width: 90%;
     }
 
-    footer {
-        text-align: center;
-    }
-
-    .footer-left h2 {
-        font-size: 1.5rem;
-    }
-
-    .footer-left,
-    .footer-right {
+    .footer-left, .footer-right {
         max-width: 100%;
         width: 100%;
+    }
+
+    .footer-right {
+        align-items: center;
+    }
+
+    footer p {
+        font-size: 0.75rem; /* 12px equivalent */
     }
 }
 
@@ -285,5 +309,20 @@ footer {
     .modal-content {
         width: 90%;
         padding: 1rem; /* Уменьшаем отступы внутри модального окна */
+    }
+    .footer-left h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer-left h3 {
+        font-size: 0.875rem; /* 14px equivalent */
+    }
+
+    .social-icons a img {
+        width: 1.5rem; /* 24px equivalent */
+    }
+
+    footer p {
+        font-size: 0.75rem; /* 12px equivalent */
     }
 }
