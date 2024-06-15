@@ -36,7 +36,7 @@ window.openModal = function(workId) {
                 <img src="assets/IMG/workcase/nightShooting/b.jpg" alt="Работа 2" style="max-width: 100%; border-radius: 10px;">
                 <p>Несколько нарядов помогают создать разные образы, а меняя фон кажется, будто фотосессий было несколько!</p>
                 <p>Свет определенно добавляет свой шарм.</p>
-                <img src="assets/IMG/workcase/nightShooting/c.jpg" alt="Работа 3" style="max-width: 100%; border-radius: 10px;">
+                <img src="assets/IMG/workcase/nightShooting/d.jpg" alt="Работа 3" style="max-width: 100%; border-radius: 10px;">
                 <p>Это было потрясающе!</p>
             `;
             break;
