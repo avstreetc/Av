@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/assets/IMG/map/back.png') no-repeat center center/cover;
+}
+
+.card {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 600px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 2.5em;
+    margin: 0 0 1vw 0;
+}
+
+.subheading-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+    flex-wrap: wrap;
+}
+
+.subheading {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.buttons {
+    margin: 1.5rem 0;
+}
+
+.main-button {
+    display: inline-block;
+    padding: 1vw 2vw;
+    margin: 0.5vw;
+    text-decoration: none;
+    color: black;
+    border: 0.1vw solid black;
+    border-radius: 0.5vw;
+    font-size: 1em;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-button img {
+    width: 1.5em;
+    margin-right: 0.5vw;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+.social-icons a img {
+    width: 3vw;
+    margin: 0 0.5vw;
+}
+
+@media (max-width: 768px) {
+    :root {
+        font-size: 4vw; /* Увеличиваем базовый размер шрифта для меньших экранов */
+    }
+
+    .card {
+        padding: 4vw;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        font-size: 6vw; /* Ещё больше увеличиваем базовый размер шрифта для самых маленьких экранов */
+    }
+
+    .card {
+        padding: 6vw;
+    }
+
+    .subheading-container {
+        flex-direction: column;
+    }
+
+    .subheading {
+        text-align: center;
+    }
+
+    .social-icons a img {
+        width: 6vw;
+    }
+}
