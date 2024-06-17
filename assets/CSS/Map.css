@@ -1,188 +1,171 @@
 body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: url('/assets/IMG/map/back.png') no-repeat center center/cover;
-
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url("/assets/IMG/map/back.png") no-repeat center center/cover;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 1rem;
-    padding: 3vw;
-    max-width: 60rem; 
-    width: 100%;
-    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 1rem;
+  padding: 3vw;
+  max-width: 60rem;
+  width: 100%;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 6vw;
-    margin-block-end: 0;
-    margin-block-start: 0;
+  font-weight: 900;
+  font-size: 6vw;
+  margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 .subheading-container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin-top: 2rem;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .subheading {
-    font-size: 1.5vw;
-    flex: 1;
-    text-align: center;
+  font-size: 1.5vw;
+  flex: 1;
+  text-align: center;
 }
 .subheading:first-child {
-    text-align: left;
+  text-align: left;
 }
 
 .subheading:last-child {
-    text-align: right;
+  text-align: right;
 }
 
 .buttons {
-    margin: 3vw 0;
-    display: flex;
-    justify-content: center;
-    gap: 2vw;
-    flex-wrap: wrap;
+  margin: 3vw 0;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
 }
 
 .main-button {
-    padding: 1vw 2vw;
-    text-decoration: none;
-    color: black;
-    border: 0.0625rem solid black; /* 1px equivalent */
-    border-radius: 0.3125rem; /* 5px equivalent */
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 0 1 auto;
+  padding: 1vw 2vw;
+  text-decoration: none;
+  color: black;
+  border: 0.0625rem solid black; 
+  border-radius: 0.3125rem; 
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 1 auto;
 }
 
 .contact-button img {
-    width: 1.5rem;
-    margin-right: 0.5vw;
+  width: 1.5rem;
+  margin-right: 0.5vw;
 }
 
 .social-icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4vw;
-    gap: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4vw;
+  gap: 1vw;
 }
 
 .social-icons a {
-    display: inline-block;
+  display: inline-block;
 }
 
 .social-icons a img {
-    width: 3vw;
-}
-
-@media (max-width: 1024px) {
-    h1 {
-        font-size: 4rem; /* 4% of viewport width */
-    }
-
-    .card {
-        padding: 4vw; /* 4% of viewport width */
-    }
-
-    .subheading {
-        font-size: 1.25rem; /* 1.25% of viewport width */
-    }
+  width: 3vw;
 }
 
 @media (max-width: 768px) {
-    :root {
-        font-size: 4vw; /* 4% of viewport width */
-    }
+  :root {
+    font-size: 4vw; 
+  }
 
-    .card {
-        padding: 6vw; /* 6% of viewport width */
-        margin: 1vw; /* Уменьшил отступы для карточки на маленьких экранах */
-    }
+  .card {
+    padding: 6vw; 
+    margin: 1vw;
+  }
 
-    h1 {
-        font-size: 2rem; /* 2% of viewport width */
-    }
+  h1 {
+    font-size: 2rem;
+  }
 
-    .subheading {
-        font-size: 1rem; /* 1% of viewport width */
-    }
+  .subheading {
+    font-size: 1rem;
+  }
 
-    .main-button {
-        width: 100%;
-        padding: 2vw 3vw; /* Уменьшил отступы кнопок */
-    }
+  .main-button {
+    padding: 2vw 3vw;
+  }
 }
 
 @media (max-width: 480px) {
-    :root {
-        font-size: 5vw; /* 5% of viewport width */
-    }
+  :root {
+    font-size: 5vw; 
+  }
 
-    .card {
-        padding: 8vw; /* 8% of viewport width */
-    }
+  .card {
+    padding: 8vw; 
+  }
 
-    h1 {
-        font-size: 1.5rem; /* 1.5% of viewport width */
-    }
+  h1 {
+    font-size: 1.5rem; 
+  }
 
-    .subheading-container {
-        flex-direction: column;
-    }
+  .subheading-container {
+    flex-direction: column;
+  }
 
-    .subheading {
-        font-size: 0.875rem; /* 0.875% of viewport width */
-    }
+  .subheading {
+    font-size: 0.875rem;
+  }
 
-    .main-button {
-        width: 100%;
-        padding: 2vw; /* 2% of viewport width */
-    }
+  .main-button {
+    padding: 2.5vw;
+  }
 
-    .social-icons a img {
-        width: 4vw; /* 4% of viewport width */
-    }
+  .social-icons a img {
+    width: 4vw;
+  }
 }
 
 @media (max-width: 320px) {
-    :root {
-        font-size: 6vw; /* 6% of viewport width */
-    }
+  :root {
+    font-size: 6vw;
+  }
 
-    .card {
-        padding: 10vw; /* 10% of viewport width */
-    }
+  .card {
+    padding: 10vw;
+  }
 
-    h1 {
-        font-size: 1rem; /* 1% of viewport width */
-    }
+  h1 {
+    font-size: 1rem;
+  }
 
-    .subheading {
-        font-size: 0.75rem; /* 0.75% of viewport width */
-    }
+  .subheading {
+    font-size: 0.75rem;
+  }
 
-    .main-button {
-        padding: 3vw; /* 3% of viewport width */
-    }
+  .main-button {
+    padding: 3vw;
+  }
 
-    .social-icons a img {
-        width: 5vw; /* 5% of viewport width */
-    }
+  .social-icons a img {
+    width: 5vw;
+  }
 }
