@@ -31,21 +31,21 @@ window.openModal = function(workId) {
         case "work_nightShooting":
             modalBody.innerHTML = `
                 <h2>Ночная съемка Маши</h2>
-                <img src="/assets/IMG/workcase/nightShooting/a.jpg" alt="Работа 1" style="max-hight: 40%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/nightShooting/a.jpg" alt="Обородование фото" style="max-hight: 40%; border-radius: 10px;">
                 <p>Для таких кадров нам необходимо было пройти к локации и расставить свет. Это был невероятно увлекательный процесс, который позволил раскрыть всю красоту ночного города.</p>
-                <img src="/assets/IMG/workcase/nightShooting/b.jpg" alt="Работа 2" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/nightShooting/b.jpg" alt="Первый коллаж" style="max-width: 100%; border-radius: 10px;">
                 <p>Несколько нарядов помогают создать разные образы, а меняя фон кажется, будто фотосессий было несколько!</p>
                 <p>Свет определенно добавляет свой шарм.</p>
-                <img src="/assets/IMG/workcase/nightShooting/d.jpg" alt="Работа 3" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/nightShooting/d.jpg" alt="Второй коллаж" style="max-width: 100%; border-radius: 10px;">
                 <p>Это было потрясающе!</p>
             `;
             break;
         case "work_dance":
             modalBody.innerHTML = `
                 <h2>Танцуем вальс Победы вместе</h2>
-                <img src="/assets/IMG/workcase/dance/a.jpg" alt="Работа 1" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/dance/a.jpg" alt="Вальс 1" style="max-width: 100%; border-radius: 10px;">
                 <p>Важное мероприятие - День Победы, вальс победы. Задача была заснять работу танцоров, попутно учавствуя в проекте.</p>
-                <img src="/assets/IMG/workcase/dance/b.jpg" alt="Работа 2" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/dance/b.jpg" alt="Вальс 2" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_webSearchLearn":
@@ -53,9 +53,9 @@ window.openModal = function(workId) {
                 <h2>Сайт обучающих курсов</h2>
                 <img src="/assets/IMG/workcase/SearchLearn/a.png" alt="Сайт" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
-                <img src="/assets/IMG/workcase/SearchLearn/b.png" alt="Сайт2" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/SearchLearn/b.png" alt="Отображение сайта" style="max-width: 100%; border-radius: 10px;">
                 <p>Такой сайт помогает развиваться стартаперам SearchAndLearn.</p>
-                <img src="/assets/IMG/workcase/SearchLearn/c.jpg" alt="Сайт3" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/SearchLearn/c.jpg" alt="Демонстраниция сайта" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_limonLogo":
