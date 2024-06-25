@@ -74,7 +74,7 @@ body {
   }
   
   .contact-button img {
-    width: 1.5rem;
+    width: 1.5vw;
     margin-right: 0.5vw;
   }
   
@@ -142,8 +142,12 @@ body {
       padding: 2.5vw;
       flex: 0 1 calc(100% - 2vw); /* Перенос кнопок на полную ширину */
       margin-bottom: 2vw; /* Увеличил отступ снизу для разделения кнопок */
+      font-size: 4vw;
     }
-  
+  .contact-button img {
+    width: 5vw;
+    margin-right: 0.8vw;
+  }
     .social-icons a img {
       width: 4vw;
     }
