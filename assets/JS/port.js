@@ -7,10 +7,8 @@ function filterSelection(category) {
     }
 }
 
-// Default to show all works
 filterSelection('all');
-// Default to show all works
-filterSelection('all');
+
 // Функция для открытия модального окна
 window.openModal = function(workId) {
     const modal = document.getElementById("modal");
@@ -22,11 +20,15 @@ window.openModal = function(workId) {
     switch (workId) {
         case "work_chess":
             modalBody.innerHTML = `
-                <h2>3D Шахматы</h2>
-                <div id="3d-container" style="width: 100%; height: 500px;"></div>
+                <h2>Шахматы</h2>
+                <p>В этой игре я знаю только, что пешка может пошагать на две клетки вперед.</p>
+                <spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/d2t7hkwYj7zyy0vX/scene.splinecode"></spline-viewer>
+                <p>Но это не помешает расставить камеры, смоделировать такую сценку.</p>
+                <img src="/assets/IMG/workcase/Chess/a.jpg" alt="Шахматы на рендере" style="max-width: 100%; border-radius: 10px;">
+                <p>Больше всего мне нравится расставлять свет и искать заманивающие кадры.</p>
+                <img src="/assets/IMG/workcase/Chess/b.jpg" alt="Шахматы на рендере" style="max-width: 100%; border-radius: 10px;">
             `;
             // Создаем 3D сцену
-            initThreeJS();
             break;
         case "work_nightShooting":
             modalBody.innerHTML = `
@@ -51,11 +53,11 @@ window.openModal = function(workId) {
         case "work_webSearchLearn":
             modalBody.innerHTML = `
                 <h2>Сайт обучающих курсов</h2>
-                <img src="/assets/IMG/workcase/SearchLearn/a.png" alt="Сайт" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/SearchLearn/c.jpg" alt="Демонстраниция сайта" style="max-width: 100%; border-radius: 10px;">
                 <p>Создание сайта для обучающих курсов включало в себя разработку UX/UI дизайна, адаптивной верстки и оптимизации под поисковые системы.</p>
                 <img src="/assets/IMG/workcase/SearchLearn/b.png" alt="Отображение сайта" style="max-width: 100%; border-radius: 10px;">
                 <p>Такой сайт помогает развиваться стартаперам SearchAndLearn.</p>
-                <img src="/assets/IMG/workcase/SearchLearn/c.jpg" alt="Демонстраниция сайта" style="max-width: 100%; border-radius: 10px;">
+                <img src="/assets/IMG/workcase/SearchLearn/a.png" alt="Сайт" style="max-width: 100%; border-radius: 10px;">
             `;
             break;
         case "work_limonLogo":
@@ -102,6 +104,18 @@ window.openModal = function(workId) {
                 <p>Разработка UX/UI дизайна для мобильного приложения BoAvok, включая прототипирование и тестирование.</p>
             `;
             break;
+        case "work_home3d":
+            modalBody.innerHTML = `
+                <h2>Домики в лесу на закате</h2>
+                <p>Когда я делал это, я думал сделать 3d игру (3D может грузиться долго)</p>
+                <spline-viewer loading-anim-type="spinner-small-dark" url="https://prod.spline.design/6CLPuIyi2SCn1wmt/scene.splinecode"></spline-viewer>
+                <p>Но это не помешает расставить камеры, смоделировать такую сценку.</p>
+                <img src="/assets/IMG/workcase/Chess/a.jpg" alt="Шахматы на рендере" style="max-width: 100%; border-radius: 10px;">
+                <p>Больше всего мне нравится расставлять свет и искать заманивающие кадры.</p>
+                <img src="/assets/IMG/workcase/Chess/b.jpg" alt="Шахматы на рендере" style="max-width: 100%; border-radius: 10px;">
+            `;
+            // Создаем 3D сцену
+            break;
         default:
             modalBody.innerHTML = "<p>Не удалось загрузить данные. Попробуйте снова.</p>";
             break;
@@ -121,42 +135,4 @@ window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
-}
-
-// Инициализация Three.js для 3D шахмат
-function initThreeJS() {
-    const container = document.getElementById('3d-container');
-
-    // Создание сцены
-    const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, container.clientWidth / container.clientHeight, 0.1, 1000);
-
-    // Создание рендера
-    const renderer = new THREE.WebGLRenderer();
-    renderer.setSize(container.clientWidth, container.clientHeight);
-    container.appendChild(renderer.domElement);
-
-    // Создание источника света
-    const light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(0, 1, 1).normalize();
-    scene.add(light);
-
-    // Загрузка 3D модели шахмат
-    const loader = new GLTFLoader();
-    loader.load('assets/3d/Home.glb', function(gltf) {
-        scene.add(gltf.scene);
-        render();
-    }, undefined, function(error) {
-        console.error(error);
-    });
-
-    camera.position.z = 5;
-
-    // Функция рендера
-    function render() {
-        requestAnimationFrame(render);
-        renderer.render(scene, camera);
-    }
-
-    render();
 }
