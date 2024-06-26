@@ -116,7 +116,17 @@ window.openModal = function(workId) {
                 <p>Больше всего мне нравится расставлять свет и искать заманивающие кадры.</p>
                 <img src="/assets/IMG/workcase/Chess/b.jpg" alt="Шахматы на рендере" style="max-width: 100%; border-radius: 10px;">
             `;
-            // Создаем 3D сцену
+            break;
+        case "work_free2024":
+            modalBody.innerHTML = `
+                <h2>Пропуск Free 2024</h2>
+                <p>Это была практика в школе, у нас было много возможностей и ещё больше энтузиазма!</p>
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719434090/IMG_3066_yfiqd6.jpg" alt="Коллаж Валя" style="max-width: 100%; border-radius: 10px;">
+                <p>Тогда был праздничный день, в котором нарядную мою подругу я подвозил. Решил сделать этот праздник более официальным. Теперь такой пропуск есть, и используется </p>
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719434536/Frame_9_ucxlyd.png" alt="Пропуск" style="max-width: 100%; border-radius: 10px;">
+                <p>Оставалось только напечатать, продырявить и вручить такой пропуск!</p>
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719433361/free2024_obj1fu.png" alt="Пропуск" style="max-width: 100%; border-radius: 10px;">
+            `;
             break;
         default:
             modalBody.innerHTML = "<p>Не удалось загрузить данные. Попробуйте снова.</p>";
