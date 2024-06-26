@@ -1,5 +1,6 @@
 :root {
   font-size: 16px;
+  text-decoration: none;
 }
 
 body {
@@ -28,7 +29,7 @@ header {
   height: 2rem;
   background-color: black;
   border-radius: 50%;
-  margin-right: 0.625rem; 
+  margin-right: 0.625rem;
 }
 
 nav ul {
@@ -54,6 +55,7 @@ nav ul li a {
   color: black;
   border-radius: 0.3125rem;
 }
+
 .contact-section {
   padding: 2rem;
   max-width: 2200px;
@@ -68,10 +70,11 @@ nav ul li a {
   justify-content: space-between;
   width: 100%;
 }
+
 .contact-section h1 {
   align-self: self-start;
   font-weight: 900;
-  font-size: 7vw;
+  font-size: 4vw;
   margin-block-end: 0;
   margin-block-start: 0;
 }
@@ -93,22 +96,39 @@ nav ul li a {
 }
 
 .contact-image {
+  position: relative;
   max-width: 40%;
   text-align: center;
 }
 
 .contact-image img {
-  width: 100%;
-  border-radius: 50%;
+  width: 90%;
+  border-radius: 10%; /* Закругление изображения */
 }
 
 .contact-info {
-  margin-top: 1rem;
+  position: absolute;
+  bottom: -5%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: aliceblue;
+  width: 70%;
+  text-align: left;
+  border: 0.0625rem solid black;
+  padding: 0.625rem 1.25rem;
+
+  color: black;
+  border-radius: 0.3125rem;
 }
 
 .contact-info p {
   margin: 0.5rem 0;
 }
+.contact-info a {
+  color: black;
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -123,7 +143,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -145,7 +165,7 @@ footer {
 }
 
 .social-icons {
-  margin-top: 0.5rem; 
+  margin-top: 0.5rem;
 }
 
 .social-icons a img {
@@ -168,7 +188,7 @@ footer {
 .footer-right ul li {
   font-weight: 400;
   font-size: 1rem;
-  margin: 0.3125rem 0; 
+  margin: 0.3125rem 0;
 }
 
 .footer-right ul li a {
@@ -183,9 +203,10 @@ footer {
 footer p {
   width: 100%;
   text-align: center;
-  font-size: 0.875rem; 
+  font-size: 0.875rem;
   margin-top: 1rem;
 }
+
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -201,12 +222,21 @@ footer p {
   .contact-content {
     flex-direction: column;
   }
-
   .contact-image {
-    max-width: 50%;
-    order: 2;
-    align-items: center;
+  max-width: 100%;
+
   }
+  .contact-image img {
+    display: none; /* Скрываем фотографию */
+  }
+
+  .contact-info {
+    position: relative;
+    text-align: center; /* Центрирование текста */
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
   .footer-left,
   .footer-right {
     max-width: 100%;
@@ -218,7 +248,7 @@ footer p {
   }
 
   footer p {
-    font-size: 0.75rem; 
+    font-size: 0.75rem;
   }
 }
 
