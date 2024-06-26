@@ -35,7 +35,7 @@ window.openModal = function(workId) {
                 <h2>Ночная съемка Маши</h2>
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719430264/a_utdzbe.jpg" alt="Обородование фото" style="max-hight: 40%; border-radius: 10px;">
                 <p>Для таких кадров нам необходимо было пройти к локации и расставить свет. Это был невероятно увлекательный процесс, который позволил раскрыть всю красоту ночного города.</p>
-                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719430264/b_vbgirk.jpgg" alt="Первый коллаж" style="max-width: 100%; border-radius: 10px;">
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719430264/b_vbgirk.jpg" alt="Первый коллаж" style="max-width: 100%; border-radius: 10px;">
                 <p>Несколько нарядов помогают создать разные образы, а меняя фон кажется, будто фотосессий было несколько!</p>
                 <p>Свет определенно добавляет свой шарм.</p>
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719430264/d_kl6ann.jpg" alt="Второй коллаж" style="max-width: 100%; border-radius: 10px;">
