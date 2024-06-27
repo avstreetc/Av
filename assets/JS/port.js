@@ -121,6 +121,7 @@ window.openModal = function(workId) {
                 <p>Но это не помешает расставить камеры, смоделировать такую сценку.</p>
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719449460/4f16293c-7283-4042-ae65-d9ae35dd44e4.png" alt="Дома в закате" style="max-width: 100%; border-radius: 10px;">
                 <p>Больше всего мне нравится расставлять свет и искать заманивающие кадры.</p>
+                <iframe src="https://giphy.com/embed/7SMwOgXHB9kVX2Kxr0" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             `;
             break;
         case "work_free2024":
