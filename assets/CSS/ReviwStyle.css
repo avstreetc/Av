@@ -254,6 +254,14 @@ footer a:hover {
 }
 
 @media (max-width: 480px) {
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
   .footer-left h2 {
     font-size: 1.5rem;
   }
