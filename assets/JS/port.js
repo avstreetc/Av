@@ -63,7 +63,8 @@ window.openModal = function(workId) {
             break;
         case "work_limon":
             modalBody.innerHTML = `
-                <h2>Логотип Лимон</h2>
+                <h2>Фотосессия для бренда LenLimon</h2>
+                <p>Стильные платья изо льна получаются очень яркие. После фотосессии я заказал себе рубашку изо льна.</p>
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719445856/a_mn6dcm.png" alt="Платья" style="max-width: 95%; border-radius: 10px;">
                 <p>В студии фотографировать модель гораздо лучше, когда за окном облочно. Нет сильных лучей света и свет получается мягким</p>
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719446138/IMG_3083_iuybnm.jpg" alt="Костюм" style="max-width: 100%; border-radius: 10px;">
