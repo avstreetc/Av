@@ -28,7 +28,7 @@
     <main>
         <section class="feedback-section">
             <h1>Оставить отзыв</h1>
-            <form action="#">
+            <form action="#"  id="feedbackForm">
                 <div class="form-group">
                     <label for="name">Представьтесь</label>
                     <input type="text" id="name" name="name" placeholder="Имя" required>
@@ -47,6 +47,20 @@
                 <p>Помогу: Расскажите о вашем опыте работы с креативным технологом. Чем я Вас удивил? Какие уникальные решения и идеи были предложены для вашего проекта? Поделитесь деталями, которые сделали сотрудничество незабываемым и успешным. Мне важен ваш отзыв, чтобы продолжать радовать моих клиентов! Также недочеты и улучшения были бы приятным бонусом!</p>
             </div>
         </section>
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('successModal')">&times;</span>
+            <p>Отзыв успешно отправлен!</p>
+        </div>
+    </div>
+    
+    <!-- Неуспешное отправление -->
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button" onclick="closeModal('errorModal')">&times;</span>
+            <p>Произошла ошибка при отправке отзыва. Пожалуйста, попробуйте снова.</p>
+        </div>
+    </div>
     </main>
     <footer>
         <div class="footer-content">
@@ -72,5 +86,6 @@
         </div>
         <p class="copyright">&copy; 2018 - 2024, Avstreetc (Артем В.С.). Все права защищены.</p>
     </footer>
+    <script type="module" src="assets/JS/reviw.js"></script>
 </body>
 </html>
