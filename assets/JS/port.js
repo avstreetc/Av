@@ -61,11 +61,13 @@ window.openModal = function(workId) {
 
             `;
             break;
-        case "work_limonLogo":
+        case "work_limon":
             modalBody.innerHTML = `
                 <h2>Логотип Лимон</h2>
-                <img src="/assets/IMG/workcase/limonLogo/a.jpg" alt="Логотип" style="max-width: 100%; border-radius: 10px;">
-                <p>Разработка логотипа для бренда "Лимон" включала в себя создание уникального фирменного стиля и элементов брендинга.</p>
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719445856/a_mn6dcm.png" alt="Платья" style="max-width: 95%; border-radius: 10px;">
+                <p>В студии фотографировать модель гораздо лучше, когда за окном облочно. Нет сильных лучей света и свет получается мягким</p>
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719446138/IMG_3083_iuybnm.jpg" alt="Костюм" style="max-width: 100%; border-radius: 10px;">
+                
             `;
             break;
         case "work_handmadeAlbum":
@@ -126,6 +128,13 @@ window.openModal = function(workId) {
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719434536/Frame_9_ucxlyd.png" alt="Пропуск" style="max-width: 100%; border-radius: 10px;">
                 <p>Оставалось только напечатать, продырявить и вручить такой пропуск!</p>
                 <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719433361/free2024_obj1fu.png" alt="Пропуск" style="max-width: 100%; border-radius: 10px;">
+            `;
+            break;
+        case "work_34Logo":
+            modalBody.innerHTML = `
+                <h2>Логотип группы в инстаграме</h2>
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719443847/Free_iPhone_11_Pro_Mockup_3_twaatq.png" alt="Отображение, как выглядит" style="max-width: 50%; border-radius: 10px;">
+                <p>Много идей, много предложений. Но выбор был за самым небоычным, дерзким дизайном! Цветовое сочитаение подходит под логотип самого колледжа, оба в цветах сине-голубого</p>
             `;
             break;
         default:
