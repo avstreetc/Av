@@ -83,7 +83,7 @@ window.openModal = function(workId) {
             modalBody.innerHTML = `
                 <h2>Reels для психолога</h2>
                 <p>Создание серии видео Reels для продвижения услуг психолога в социальных сетях.</p>
-                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719451070/d63b8698-d314-4513-bf76-34cf5c9297ec.png" alt="Reels для психолога" style="max-width: 100%; border-radius: 10px;">
+                <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719451070/d63b8698-d314-4513-bf76-34cf5c9297ec.png" alt="Reels для психолога" style="max-width: 40%;">
                 <p>Для просмотра Reels отсканируйте Qr-код с телефона, если вы на ПК. Если вы хотите остаться на ПК, то вот ссылка: </p>
                 <div class="contact-button">
                 <a href="https://www.instagram.com/reel/C6V9xjRo1VL/?igsh=MTQyMzNwbms5NHd2NQ==">Reels</a>
