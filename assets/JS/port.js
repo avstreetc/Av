@@ -142,6 +142,17 @@ window.openModal = function(workId) {
                 <p>Много идей, много предложений. Но выбор был за самым небоычным, дерзким дизайном! Цветовое сочитаение подходит под логотип самого колледжа, оба в цветах сине-голубого</p>
             `;
             break;
+            case "work_vipusk":
+                modalBody.innerHTML = `
+                    <h2>Приглашение на выпускной</h2>
+                    <p>Было много варинатов такого приглашения. </p>
+                    <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719557710/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0_2024-06-28_095435_ucmxgs.png" alt="Коллаж Валя" style="max-width: 100%; border-radius: 10px;">
+                    <p>Сходилось все к 4 вариантам.</p>
+                    <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719557848/photo_2024-06-28_09-57-23_r9vmxj.jpg" alt="Варианты" style="max-width: 100%; border-radius: 10px;">
+                    <p>Сошлись на формате 10 на 15. К такому пригласительному также оформлен дополнительно небольшая коробочка с подарками.</p>
+                    <img src="https://res.cloudinary.com/diwgonclj/image/upload/v1719558390/photo_2024-06-28_10-05-46_qdz6kz.jpg" alt="Конечный" style="max-width: 100%; border-radius: 10px;">
+                `;
+                break;
         default:
             modalBody.innerHTML = "<p>Не удалось загрузить данные. Попробуйте снова.</p>";
             break;
